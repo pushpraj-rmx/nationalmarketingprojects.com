@@ -1,0 +1,48 @@
+.icon-new {
+display: flex;
+    height: 72px !important;
+    width: 72px !important;
+    align-items: center !important;
+}
+
+.yellow-bg {
+background-color: #C19931 !important;
+}
+
+.align-self {
+align-self: center;
+}
+
+.about-us-container {
+    background-image: url(./img/aerial-view-business-team.jpg);
+    background-size: cover;
+}
+
+.new-blur-effect {
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.418) , rgba(255, 255, 255, 0.432));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 50px;
+    margin: 10px 0px;
+    filter: drop-shadow(2px 2px 2px #797979);
+}
+
+.golden-heading {
+    /* color: #C19931; */
+}
+
+
+
+
+
+
+
+
+
+/* ================================================= */
+.google-map iframe {
+    width: 100%;
+    border: 0;
+    filter: none;
+}

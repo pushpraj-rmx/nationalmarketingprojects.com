@@ -1,0 +1,19 @@
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^www\.nationalmarketingprojects\.com$
+RewriteRule ^(.*)$  https://nationalmarketingprojects.com/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(([^/]+/)*)index\.html\ HTTP/
+RewriteRule index\.html$ https://nationalmarketingprojects.com/%1 [R=301,L]
+
+Redirect 301 /services/whatsapp-marketing.php /whatsapp-marketing-services.php
+Redirect 301 /services/email-marketing.php /email-marketing-services.php
+Redirect 301 /services/sms-marketing.php /sms-marketing-services.php
+Redirect 301 /services/ivr-marketing.php /ivr-service-provider.php
+Redirect 301 /services/affiliate-marketing.php /affiliate-marketing-services.php
+Redirect 301 /services/content-marketing-services.php /content-marketing-services.php
+Redirect 301 /services/software-marketing.php /software-marketing-services.php
+
+# Use PHP5 as default
+AddHandler application/x-httpd-ea-php74___lsphp .php .html .shtml

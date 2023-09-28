@@ -1,0 +1,25 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /login
+Disallow: /blog/wp-admin/
+Disallow: /blog/author/
+Disallow: /blog/2023/
+Disallow: /blog/wp-json/
+Disallow: /blog/wp-content/uploads/
+Disallow: /blog/tag/
+Disallow: /blog/category/
+Disallow: /blog/comments/feed/
+Disallow: /blog/category/blogs/feed/
+Disallow: /blog/xmlrpc.php
+Disallow: /blog/wp-content/plugins/
+Disallow: /blog/wp-content/themes/
+
+
+
+
+
+Sitemap: https://nationalmarketingprojects.com/sitemap.xml
+
+Sitemap: https://nationalmarketingprojects.com/blog/sitemap_index.xml
